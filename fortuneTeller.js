@@ -12,8 +12,6 @@ const messages = [
     "Your kindness will be rewarded in ways you don't expect."
 ]
 
-const generateNum = () => Math.floor(Math.random() * 11);
+const generateNum = () => Math.floor(Math.random() * 10);
 
-for(let i = 0; i < 100; i++){
-    console.log(generateNum());
-}
+console.log(messages[generateNum()]);
